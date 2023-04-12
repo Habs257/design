@@ -1,0 +1,293 @@
+
+body{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 18px;
+}
+section{
+   width: 1440px;
+   margin: auto;
+}
+header{
+    background-image:url(bg-header-desktop.png);
+    background-repeat: no-repeat;
+}
+
+.logo{
+   justify-content: center;
+    flex-direction: column;
+    max-width: 1440px;
+}
+#habs{
+    margin-top: 30px;
+
+}
+ .button1{
+    margin-top: 50px;
+    background-color: white;
+    margin-bottom: 150px;
+ }
+ 
+ .computer{
+    display: flex;
+    align-items: center;
+    margin-left: -50px;
+    margin-top: 100px;
+ }
+ .access{
+   width: 50%;
+   margin: auto;
+ }
+ .black{
+   width: 30%;
+   margin: auto;
+ }
+ .text{
+   width: 27%;
+   margin: auto;
+ }
+ .sneek{
+   width:29% ;
+   margin: auto;
+ }
+ .icons{
+display: flex;
+justify-content: space-around;
+margin-top: 50px;
+text-align: center;
+
+ }
+ .logog{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: -580px;
+    font-size: -50px;
+ }
+ .conteineuracc{
+   width: 50%;
+   margin: auto;
+    margin-top: 100px;
+    padding-bottom: 50px;
+ }
+ .button-ios{
+    color: white;
+    border: none;
+    border-radius: 15px;
+    height: 35px;
+    margin-right: 20px;
+    background-color: #27BBA4;
+    width: 150px;
+
+ }
+ .clipboard{
+   width: 46%;
+   margin: auto;
+ }
+ .keep{
+   width: 50%;
+   margin: auto;
+ }
+ .button-mac{
+    color: white;
+    margin-right: 20px;
+    border: none;
+    border-radius: 15px;
+    height: 35px;
+    background-color:cornflowerblue ;
+    width: 150px;
+ }
+ .logo2{
+     display: flex;
+    height: 50px;
+ }
+ .lien2 a:hover svg path{
+    padding-left: 12px;
+    fill: hsl(171, 66%, 44%);
+    margin: 1rem;
+    color: none;
+    display: flex; 
+ }
+ .lien1{
+    display: flex;
+     font-family: arial;
+     justify-content: space-around;
+   width: 500px;
+   margin-top: 40px;
+   text-align: left;
+ }
+ .footer{
+    margin-top: 110px;
+    display: flex;
+ }
+ .foot{
+   margin: 0;
+    display: flex;
+    background-color: gainsboro;
+    text-align: center;
+    justify-content: space-around;
+    height: 150px;
+
+ }
+ a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+ }
+ .lien2{
+    word-spacing: 20px;
+    margin-top: 70px;
+ }
+ a.ins{
+    border-color: cornsilk;
+    padding-right: 42px;
+ }
+ a:hover{
+    color: hsl(171, 66%, 44%);
+ }
+ .g{
+    width: 50px;
+    margin-top: 40px;
+ }
+.quick{
+   width: 25%;
+    margin-left: 100px;
+    text-align: left;
+    margin-bottom: 120px;
+}
+.li{
+    margin-top: 90px;
+}
+
+
+@media screen and (max-width:375px) {
+   .page{
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+   }
+   .clipboard{
+      margin: auto;
+      width: 340px;
+      font-size: 18px;
+      flex-direction: column;
+   }
+   .button1{
+      width: 90px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: auto;
+      /* justify-content: space-around; */
+      justify-content: space-between;
+   }
+   header{
+      width: 375px;
+      margin: auto;
+   }
+   .keep{
+      flex-direction: column;
+      justify-content: center;
+      width: 350px;
+      margin: auto;
+   }
+   .computer{
+      flex-direction: column;
+      width: 80%;
+      margin: auto;
+
+   }
+   .pc{
+     width: 80%;
+      margin: auto;
+   }
+   .ordi{
+      width: 90%;
+      margin: auto;
+   }
+   .quick{
+      text-align: center;
+      width: 80%;
+      margin: auto;
+   }
+   .access{
+      width: 360px;
+      margin: auto;
+   }
+   .device{
+      width: 80%;
+      margin: auto;
+   }
+   .access .acss {
+      width: 80%;
+      margin: auto;
+   }
+   #d{
+      width: 80%;
+   }
+  .supper{
+   width: 300px;
+   margin: auto;
+  } 
+  .icons{
+   margin: auto;
+   flex-direction: column;
+  }
+  .logog{
+   flex-direction: column;
+   justify-content: space-around;
+  }
+  .footer{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+ background-color: #dcdcdc;
+  }
+  div .lien1{
+   margin: 0;
+   padding: 0;
+   width: auto;
+   font-size: 12px;
+   margin-left: 2rem;
+   margin-top: 2em;
+  }
+  div .c {
+   margin: 0;
+   /* margin-left: 5em; */
+  }
+  div .logo2{
+   margin: 0;
+   margin-left: 2em;
+   margin-top: 2em;
+  }
+  div .b{
+   margin: 0;
+   /* margin-left: 2em; */
+   
+  }
+  .lien2 {
+display: flex;
+align-items: center;
+margin-left: 15px;
+
+  }
+ .logo2 img{
+   width: 30px;
+   height: 30px;
+}
+.foot{
+   display: flex;
+   flex-direction: column;
+}
+.lien1{
+   flex-direction: column;
+}
+a.ins{
+   padding-right: 0px;
+}
+
+
+}
