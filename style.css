@@ -6,16 +6,18 @@ body{
     text-align: center;
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 18px;
+    margin: auto;
+    background: #27BBA4;
 }
 section{
    width: 1440px;
    margin: auto;
-}
-header{
-    background-image:url(bg-header-desktop.png);
+   overflow: hidden;
+   max-width: 1440px;
+   background-image:url(bg-header-desktop.png);
     background-repeat: no-repeat;
+    background: white;
 }
-
 .logo{
    justify-content: center;
     flex-direction: column;
@@ -23,14 +25,12 @@ header{
 }
 #habs{
     margin-top: 30px;
-
 }
  .button1{
     margin-top: 50px;
-    background-color: white;
+
     margin-bottom: 150px;
  }
- 
  .computer{
     display: flex;
     align-items: center;
@@ -100,10 +100,6 @@ text-align: center;
     background-color:cornflowerblue ;
     width: 150px;
  }
- .logo2{
-     display: flex;
-    height: 50px;
- }
  .lien2 a:hover svg path{
     padding-left: 12px;
     fill: hsl(171, 66%, 44%);
@@ -111,35 +107,32 @@ text-align: center;
     color: none;
     display: flex; 
  }
- .lien1{
-    display: flex;
-     font-family: arial;
-     justify-content: space-around;
-   width: 500px;
-   margin-top: 40px;
-   text-align: left;
- }
- .footer{
-    margin-top: 110px;
-    display: flex;
- }
- .foot{
-   margin: 0;
-    display: flex;
-    background-color: gainsboro;
-    text-align: center;
-    justify-content: space-around;
-    height: 150px;
 
+ .footer{
+   display: flex;
+   align-items: center; 
+   justify-content: space-around;
+ background-color: #dcdcdc;   
+ }
+ .lien1{
+   display: flex;
+   justify-content: start;
+   gap: 30px;
+ }
+ .lien1 div a {
+   display: flex;
+   justify-content: start;
+   
+ }
+ .lien2{
+   display: flex;  
+   gap: 30px;
  }
  a{
     text-decoration: none;
     color: hsl(210, 10%, 33%);
  }
- .lien2{
-    word-spacing: 20px;
-    margin-top: 70px;
- }
+
  a.ins{
     border-color: cornsilk;
     padding-right: 42px;
@@ -159,6 +152,9 @@ text-align: center;
 }
 .li{
     margin-top: 90px;
+}
+@media screen {
+   
 }
 
 
@@ -236,23 +232,32 @@ text-align: center;
    margin: auto;
    flex-direction: column;
   }
-  .logog{
+  .logog {
    flex-direction: column;
    justify-content: space-around;
+   margin-top: 10px;
+   gap: 60px;
+  }
+  .google{
+   /* margin-top: 10rem; */
   }
   .footer{
    display: flex;
-   align-items: center;
+   align-items: center; 
    flex-direction: column;
  background-color: #dcdcdc;
   }
   div .lien1{
-   margin: 0;
-   padding: 0;
+   margin: 0; 
+   padding: 0; 
    width: auto;
    font-size: 12px;
-   margin-left: 2rem;
-   margin-top: 2em;
+   margin-left: 2rem; 
+    margin-top: 2em; 
+   gap: 30px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
   }
   div .c {
    margin: 0;
@@ -260,7 +265,6 @@ text-align: center;
   }
   div .logo2{
    margin: 0;
-   margin-left: 2em;
    margin-top: 2em;
   }
   div .b{
@@ -272,11 +276,14 @@ text-align: center;
 display: flex;
 align-items: center;
 margin-left: 15px;
+gap: 40px;
+margin-bottom: 50px;
 
   }
  .logo2 img{
    width: 30px;
    height: 30px;
+   justify-content: center;
 }
 .foot{
    display: flex;
@@ -287,6 +294,9 @@ margin-left: 15px;
 }
 a.ins{
    padding-right: 0px;
+}
+.button-mac{
+   margin-top: 15px;
 }
 
 
